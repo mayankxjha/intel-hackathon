@@ -7,10 +7,12 @@
 .cardHolder{
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+  height: 100%;
 }
 .in1{
   width: 650px;
-  height: 1000px;
+  height: 100%;
   background: white;
   color: transparent;
   mix-blend-mode: difference;
@@ -24,7 +26,7 @@
 .in2{
   background: red;
   width: 650px;
-  height: 1000px;
+  height: 100%;
   mix-blend-mode: difference;
   text-align: center;
 }
