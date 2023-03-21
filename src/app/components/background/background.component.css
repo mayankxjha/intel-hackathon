@@ -9,14 +9,19 @@
   justify-content: space-between;
   overflow: hidden;
   height: 100%;
+  width: 100%;
 }
 .in1{
-  width: 650px;
+  width: 45%;
   height: 100%;
   background: white;
-  color: transparent;
   mix-blend-mode: difference;
   text-align: center;
+  border-radius: 5%;
+  overflow: auto;
+}
+.in1 img{
+
 }
 .in1 h1{
   color: black;
@@ -25,10 +30,12 @@
 }
 .in2{
   background: red;
-  width: 650px;
+  width: 45%;
   height: 100%;
   mix-blend-mode: difference;
   text-align: center;
+  transform: translateY(9%);
+  border-radius: 5%;
 }
 .in2 p{
   line-height: 50px;
